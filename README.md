@@ -599,10 +599,10 @@ modelTransform
 **Context data**
 ##
 - Available context data 容器的表单内容类型
+
 		MyComponentUsingUniformsContext.contextTypes = {
 	    uniforms: PropTypes.shape({
 	        name: PropTypes.arrayOf(PropTypes.string).isRequired,
-	
 	        error: PropTypes.any,
 	        model: PropTypes.object.isRequired,
 	
